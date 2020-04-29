@@ -1,0 +1,4 @@
+[[headers]]
+  for = "/wp-content/uploads/*"
+  [headers.values]
+    Cache-Control = "public, s-max-age=604800"
