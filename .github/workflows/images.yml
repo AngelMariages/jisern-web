@@ -1,12 +1,10 @@
 # This is a basic workflow to help you get started with Actions
 
-name: TestImages
+name: OptimizeImages
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
 on:
-  push:
-    branches: [ master ]
   pull_request:
     branches: [ master ]
 
@@ -27,3 +25,6 @@ jobs:
         with:
           # GitHub Token
           githubToken: ${{ secrets.GITHUB_TOKEN }}
+          jpegQuality: "100"
+          pngQuality: "100"
+          webpQuality: "100"
