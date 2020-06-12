@@ -2,3 +2,14 @@
   for = "/wp-content/uploads/*"
   [headers.values]
     Cache-Control = "public, s-max-age=604800"
+
+[[plugins]]
+  package = "@netlify/plugin-sitemap"
+  
+  [plugins.inputs]
+    exclude = [
+      'category/**',
+      'blog/*',
+      'tag/*',
+      'about-us/*'
+    ]
