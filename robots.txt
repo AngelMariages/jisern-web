@@ -3,3 +3,6 @@ Disallow: /wp-admin/
 Allow: /wp-admin/admin-ajax.php
 
 Sitemap: https://www.isern-photography.com/sitemap.xml
+
+User-agent: *
+Disallow: /feed/
