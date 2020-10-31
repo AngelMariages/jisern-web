@@ -1,0 +1,21 @@
+{
+  "name": "jisern-web",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "optimize": "node optimize.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AngelMariages/jisern-web.git"
+  },
+  "author": "AngelMariages",
+  "license": "MIT",
+  "homepage": "https://github.com/AngelMariages/jisern-web#readme",
+  "devDependencies": {
+    "imagemin": "git+https://github.com/imagemin/imagemin.git#bfd7c547045f68ed92243c6a772f6265a08a687f",
+    "imagemin-mozjpeg": "^9.0.0",
+    "imagemin-pngquant": "^9.0.1"
+  }
+}
