@@ -1,5 +1,5 @@
 [[headers]]
-  for = "/wp-content/uploads/*"
+  for = "/*"
   [headers.values]
     Cache-Control = "public, s-max-age=31536000"
 
